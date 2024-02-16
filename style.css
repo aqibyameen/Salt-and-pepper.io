@@ -14,6 +14,7 @@ header {
     height: 75px;
     font-size: 18px;
     margin: 12px 0px;
+    flex-wrap: wrap;
 }
 
 /* main logo  
@@ -153,6 +154,7 @@ span {
     font-size: 40px;
     line-height: 45px;
     text-align: center;
+    width: 100%;
 
 }
 
@@ -311,7 +313,6 @@ b {
 
 footer {
     width: 100%;
-    height: 450px;
     background-color: rgba(255, 255, 255, 0.07);
     background-image: url("../asset/S-L.webp");
     background-repeat: no-repeat;
@@ -474,3 +475,182 @@ input,
 }
 
 /* feedback styling  and get a franchise styling ends */
+.none{
+    display: none;
+    height: 36px;
+    width: 36px;
+    
+
+}
+i{ font-size: 18px;
+    color: white;
+}
+@media(max-width:1240px){
+    header{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;
+    }
+    #nav-links {
+
+        gap: 20px;
+        align-content: flex-end;
+        margin-right: 20px;
+        font-size: 15px;
+    
+    
+    
+    }
+    #main-logo {
+
+        width: 125px;
+        margin-left: 30px;
+    }
+}
+
+@media(max-width:1150px){
+    .img-res{
+        max-width: 450px;
+    }
+    .details{
+        margin-left: 30px;
+    }
+    .social-img{
+        max-width: 190px;
+        padding: 5px;
+    }
+    .e-img{
+        max-width: 290px;
+    }
+}
+@media (max-width:940px) {
+    nav a,.btn{
+        display: none;
+    }
+    header{
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+    .none{
+        display: flex;
+        color: white;
+    }
+    .res{
+        
+        display: flex;
+        flex-direction: column;
+    justify-content: center;
+align-items: center;
+text-align: center;
+}
+.fran-main-head{
+    font-size: 23px;
+    line-height: 20px;
+}
+.e-main{
+    margin-top: 20px;
+}
+.franchises{
+    margin-top: 250px;
+}
+.newly-div{
+    margin-top: 3px;
+}
+footer{
+    height: auto;
+}
+.site-links,.follow-links,.Contact,.ma-10{
+    margin-top: 10px;
+}
+img{
+width: 100%;
+padding: 20px;
+}
+.carousel{
+    width: 100%;
+    padding: 0%;
+}
+#main-logo {
+
+    width: 150px;
+    margin-left: 20px;
+}
+.franchises{
+    height: auto;
+}
+.free-space{
+    height: 0px;
+}.express-fran{
+    margin-top: 0px;
+}
+.fran-main-head{
+    margin-top: 10px;
+}
+.res-m{
+    margin-top: 3px;
+    margin-bottom: 10px;
+}
+.express-main{
+    margin-top: 10px;
+}
+.fran-img{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+width: 100%;
+}
+.fran-img img{
+    width: 100%;
+}
+.fran-text{
+    margin-left: 0px;
+}
+.last{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding-bottom: 10px;
+
+}
+.lasts{
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.span-h{
+    line-height: 20px;
+    width: 200px;
+    font-size: 15px;
+    text-align: center;
+}
+.hero-btnn{
+    margin-left: 100px;
+}
+.social-img{
+    max-width: 380px;padding: 5px 10px;
+}
+
+}
+@media (max-width:1260px) {
+    header{
+        width: 100%;
+        justify-content: space-between;
+    }
+    nav{
+        justify-content: flex-end;
+        max-width: 100%;
+        margin-left: 100px;
+    }
+    
+    .carousel img{
+        width: 100%;
+    }
+    
+}
